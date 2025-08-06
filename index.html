@@ -1,149 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saffron Compass</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #FAF6F1;
-      color: #2E2E2E;
-    }
-    header {
-      background-color: #D9903C;
-      padding: 30px 20px;
-      text-align: center;
-      color: white;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    section {
-      padding: 30px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    .logo {
-      text-align: center;
-      margin: 20px 0;
-    }
-    .logo img {
-      max-width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    .highlight {
-      color: #BF5E3B;
-      font-weight: bold;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #D9903C;
-      color: white;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffron Compass</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fffdf8;
+            color: #333;
+        }
+        header {
+            background-color: #f3e8dc;
+            text-align: center;
+            padding: 50px 20px 30px;
+        }
+        header img {
+            max-height: 120px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 3.2rem;
+            margin: 0;
+        }
+        .tagline {
+            font-size: 1.3rem;
+            color: #a65f2f;
+            margin-top: 10px;
+        }
+        .container {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 60px;
+        }
+        .section-title {
+            font-size: 2rem;
+            color: #a65f2f;
+            margin-bottom: 20px;
+        }
+        .intro, .mission, .consulting, .experience-list, .founder-story {
+            font-size: 1.15rem;
+            line-height: 1.9;
+        }
+        .experience-list ul {
+            padding-left: 20px;
+            list-style-type: square;
+        }
+        .founder-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            background-color: #fff4ea;
+            padding: 30px;
+            border-radius: 12px;
+            flex-wrap: wrap;
+        }
+        .founder-section img {
+            border-radius: 12px;
+            max-width: 280px;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #f3e8dc;
+            color: #775c49;
+            font-size: 1rem;
+        }
+        @media screen and (max-width: 768px) {
+            .founder-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            .founder-section img {
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Saffron Compass</h1>
-    <p>Curated Culinary & Cultural Experiences</p>
-  </header>
+    <header>
+        <img src="https://i.postimg.cc/X7gPbNKX/Logo.jpg" alt="Saffron Compass Logo">
+        <h1>Saffron Compass</h1>
+        <div class="tagline">Curated Culinary & Cultural Journeys</div>
+    </header>
 
-  <section class="logo">
-    <img src="<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saffron Compass</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #FAF6F1;
-      color: #2E2E2E;
-    }
-    header {
-      background-color: #D9903C;
-      padding: 30px 20px;
-      text-align: center;
-      color: white;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    section {
-      padding: 30px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    .logo {
-      text-align: center;
-      margin: 20px 0;
-    }
-    .logo img {
-      max-width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    .highlight {
-      color: #BF5E3B;
-      font-weight: bold;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #D9903C;
-      color: white;
-      font-size: 0.9rem;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Saffron Compass</h1>
-    <p>Curated Culinary & Cultural Experiences</p>
-  </header>
+    <div class="container">
+        <section class="intro">
+            <h2 class="section-title">About Us</h2>
+            <p><strong>Saffron Compass</strong>, founded by <strong>Ananya Krishnan</strong> from <strong>Bangalore</strong>, is more than a brand — it's a movement to rediscover and celebrate the soul of Indian cuisine and culture. We specialize in creating luxurious, handcrafted experiences that bring people closer to the traditions, stories, and tastes of India's rich heritage.</p>
+        </section>
 
-  <section class="logo">
-    <img src="https://i.postimg.cc/NfL7PfZN/Logo.jpg" alt="Saffron Compass Logo">
-  </section>
-<img src="329924700_891784708753210_7967049464700947414_n.jpeg.webp
-" alt="My Profile Picture" width="200" style="border-radius: 50%;">
+        <section class="mission">
+            <h2 class="section-title">Our Mission</h2>
+            <p>At Saffron Compass, our mission is to bridge the gap between heritage and modern living. We strive to offer experiences that are not only enjoyable but deeply meaningful — allowing our guests to discover the essence of India through its food, rituals, and regional beauty. Whether it's through storytelling dinners or immersive travel trails, every moment is crafted with intention and authenticity.</p>
+        </section>
 
-  <section>
-    <h2>About the Brand</h2>
-    <p>
-      <span class="highlight">Saffron Compass</span> is founded by Ananya Krishnan from Bangalore. We create luxurious, handcrafted cultural and culinary experiences for curious travelers, food lovers, and heritage explorers. Whether it's an intimate home-style tasting dinner, a regional heritage trail, or a creative culinary workshop, our goal is to connect people with stories and flavors that matter.
-    </p>
-  </section>
+        <section class="experience-list">
+            <h2 class="section-title">What We Offer</h2>
+            <ul>
+                <li><strong>Curated Culinary Events:</strong> Home-style tasting dinners and regional feasts in luxurious settings.</li>
+                <li><strong>Cultural Experiences:</strong> Guided heritage walks, local market explorations, and regional cooking sessions.</li>
+                <li><strong>Immersive Travel:</strong> Custom-designed travel routes exploring food, culture, and tradition in each destination.</li>
+                <li><strong>Creative Workshops:</strong> Learn Indian cooking, food plating, spice pairing, and sustainable dining practices.</li>
+                <li><strong>Pop-Up Events:</strong> Unique dining setups in unexplored or iconic locations across India and abroad.</li>
+            </ul>
+        </section>
 
-  <footer>
-    &copy; 2021 Saffron Compass · Contact us at ananyakrishnan0715@gmail.com
-  </footer>
-</body>
-</html>
-  </section>
+        <section class="consulting">
+            <h2 class="section-title">F&B Chain Consulting</h2>
+            <p>We also operate as a strategic consultant for national and international food and beverage brands. From brand identity design to operational efficiency, we help businesses craft memorable customer experiences. Our services include:</p>
+            <ul>
+                <li>Brand Positioning & Storytelling</li>
+                <li>Menu Engineering & Culinary Strategy</li>
+                <li>Interior & Atmosphere Concept Planning</li>
+                <li>Marketing, Promotion, and Digital Branding</li>
+                <li>Expansion Planning & Franchise Models</li>
+            </ul>
+        </section>
 
-  <section>
-    <h2>About the Brand</h2>
-    <p>
-      <span class="highlight">Saffron Compass</span> is founded by Ananya Krishnan from Bangalore. We create luxurious, handcrafted cultural and culinary experiences for curious travelers, food lovers, and heritage explorers. Whether it's an intimate home-style tasting dinner, a regional heritage trail, or a creative culinary workshop, our goal is to connect people with stories and flavors that matter.
-    </p>
-  </section>
+        <section class="founder-story">
+            <h2 class="section-title">Meet the Founder</h2>
+            <div class="founder-section">
+                <img src="https://i.postimg.cc/XJVZt8nr/268657401-235494648699592-715281666127283982-n.jpg" alt="Ananya Krishnan - Founder">
+                <div>
+                    <p><strong>Ananya Krishnan</strong> is a passionate cultural curator, entrepreneur, and storyteller. Raised in Bangalore and inspired by the diversity of Indian traditions, Ananya created Saffron Compass to bring meaningful, luxurious, and educational experiences to people around the globe. Her work is a fusion of food, heritage, community, and innovation — aimed at building long-lasting impressions and stronger cultural ties.</p>
+                    <p>With a background in hospitality and a deep-rooted love for Indian heritage, Ananya is constantly exploring new regions, flavors, and formats to connect modern audiences with timeless traditions. She believes that every flavor has a story, and every story deserves a platform.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 
-  <footer>
-    &copy; 2021 Saffron Compass ·  Office Address: Block L, Embassy TechVillage, ORR, Devarabisanahalli, Bellandur, Bengaluru, Karnataka 560103
-  </footer>
+    <footer>
+        &copy; 2021 Saffron Compass. All rights reserved.  Office Address: Block L, Embassy TechVillage, ORR, Devarabisanahalli, Bellandur, Bengaluru, Karnataka 560103 | Designed with love and cultural pride.
+    </footer>
 </body>
 </html>
